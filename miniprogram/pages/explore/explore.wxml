@@ -1,0 +1,4 @@
+<view class="container" bindtouchstart="touchStart" bindtouchend="touchEnd">
+  <image class="image" src="{{currentImage}}" mode="aspectFill"></image>
+  <view class="slide">向上滑动探索</view>
+</view>
