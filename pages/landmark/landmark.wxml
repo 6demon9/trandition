@@ -4,29 +4,34 @@
   <view class="head">
     <view>中轴地标</view>
   </view>
-  <view class="land" style="position: absolute; left: 0rpx; top: 248rpx">
-    <view class="red-line" animation="{{redLineAnimation}}"></view>
-    <view class="wh">
-      <image class="image" id="image1" src="/images1/镇海楼.png" mode="aspectFit" animation="{{image1.animation}}" />
-      <image class="tname" id="image1" src="/images/镇.png" mode="aspectFit" animation="{{image1.animation}}" />
-    </view>
 
-    <image class="image" id="image2" src="/images1/五羊.png" mode="aspectFit" animation="{{image2.animation}}" />
-    <image class="image" id="image3" src="/images1/中山纪念碑.png" mode="aspectFit" animation="{{image3.animation}}" />
-    <image class="image" id="image4" src="/images1/中山纪念堂.png" mode="aspectFit" animation="{{image4.animation}}" />
-    <image class="image" id="image5" src="/images2/广州市人民政府.png" mode="aspectFit" animation="{{image5.animation}}" />
-    <view class="two">
-      <image class="image" id="image6" src="/images2/人民公园.png" mode="aspectFit" animation="{{image6.animation}}" />
-      <image class="image" id="image6" src="/images2/南越王博物院.png" mode="aspectFit" animation="{{image6.animation}}" />
-    </view>
-    <image class="image" id="image7" src="/images2/广东省财厅.png" mode="aspectFit" animation="{{image7.animation}}" />
-    <image class="image" id="image8" src="/images/广州起义纪念馆.png" mode="aspectFit" animation="{{image8.animation}}" />
-    <view class="two">
-      <image class="image" id="image9" src="/images/海珠广场.png" mode="aspectFit" animation="{{image9.animation}}" />
-      <image class="image" id="image9" src="/images2/南越王博物院.png" mode="aspectFit" animation="{{image9.animation}}" />
-    </view>
-    <image style="width: 547rpx; height: 455rpx; display: block; box-sizing: border-box;margin-top: -70rpx;" class="image" id="image10" src="/images/天字码头.png" mode="aspectFit" animation="{{image10.animation}}" />
-    <image style="width: 547rpx; height: 455rpx; display: block; box-sizing: border-box;  margin-top: -180rpx;" class="image" id="image11" src="/images/海珠桥.png" mode="aspectFit" animation="{{image11.animation}}" />
+  <view class="land" style="position: absolute; left: 0rpx; top: 248rpx">
+  <view class="red-line" animation="{{redLineAnimation}}"></view>
+  <view class="wh">
+    <image class="image" id="image1" src="{{imageUrls[0]}}" mode="aspectFit" animation="{{image1.animation}}" />
+    <image class="tname" id="image1" src="/images/镇.png" mode="aspectFit" animation="{{image1.animation}}" />
   </view>
+
+  <image class="image" id="image2" src="{{imageUrls[1]}}" mode="aspectFit" animation="{{image2.animation}}" />
+  <image class="image" id="image3" src="{{imageUrls[2]}}" mode="aspectFit" animation="{{image3.animation}}" />
+  <image class="image" id="image4" src="{{imageUrls[3]}}" mode="aspectFit" animation="{{image4.animation}}" />
+  <image class="image" id="image5" src="{{imageUrls[4]}}" mode="aspectFit" animation="{{image5.animation}}" />
+
+  <view class="two">
+    <image class="image" id="image6" src="{{imageUrls[5]}}" mode="aspectFit" animation="{{image6.animation}}" />
+    <image class="image" id="image6" src="{{imageUrls[6]}}" mode="aspectFit" animation="{{image6.animation}}" />
+  </view>
+
+  <image class="image" id="image7" src="{{imageUrls[7]}}" mode="aspectFit" animation="{{image7.animation}}" />
+  <image class="image" id="image8" src="{{imageUrls[8]}}" mode="aspectFit" animation="{{image8.animation}}" />
+
+  <view class="two">
+    <image class="image" id="image9" src="{{imageUrls[9]}}" mode="aspectFit" animation="{{image9.animation}}" />
+    <image class="image" id="image9" src="{{imageUrls[10]}}" mode="aspectFit" animation="{{image9.animation}}" />
+  </view>
+  <image class="image" id="image10" src="{{imageUrls[11]}}" mode="aspectFit" animation="{{image10.animation}}" />
+  <image class="image" id="image11" src="{{imageUrls[12]}}" mode="aspectFit" animation="{{image11.animation}}" />
+
+</view>
 
 </view>

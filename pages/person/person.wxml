@@ -76,6 +76,7 @@
         </view>
         <view class="divider"></view> <!-- 分割线 -->
       </view>
+      
       <view class="function1">
         <view class="on">
           <view class="left">
@@ -87,26 +88,17 @@
         </view>
         <view class="divider"></view> <!-- 分割线 -->
       </view>
+
       <view class="function1">
         <view class="on">
           <view class="left">
             <image src="/images/用户协议.png" mode="" />
-            使用协议
+            使用说明
           </view>
           <view class="right">></view>
 
         </view>
         <view class="divider"></view> <!-- 分割线 -->
-      </view>
-      <view class="function1" >
-        <view class="on">
-          <view class="left">
-            <image src="/images/反馈建议.png" mode="" />
-            反馈建议
-          </view>
-          <view class="right">></view>
-        </view>
-        
       </view>
       
     </view>
